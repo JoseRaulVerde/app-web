@@ -1,0 +1,57 @@
+
+.hola{ color: rgb(5, 43, 31);}
+body{
+    
+    background-color: bisque;
+    
+}
+.screen{
+    height: 78.6rem;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    position: static;
+    border-radius: 10px;
+    
+}
+.txt{
+   
+    text-align-last: center;
+    display: block;
+    font-size:  2rem;
+    color: blue;
+    text-decoration: none;  
+}
+.btn1{
+    border-style: ridge;
+    margin-top: 35px;
+    background-color: blue;
+    border-radius: 5px;
+    color: azure;
+    transition: background-color .3s ease-in-out;
+    margin-left: 20px;
+
+}
+.btn1:active{
+    box-shadow: 2px 3px 5px black;
+}
+.btn1:hover{
+    background-color: aqua;
+    color: black;
+}
+.ingresos {
+    width: 30%;
+    height: 35px;
+    border: 3px ridge blue ;
+    margin: 20px;
+    border-radius: 5px;
+    transition: background-color .3s ease-in;
+}
+.ingresos:hover{
+    background-color: cornflowerblue;
+    border: 4px ridge blue ;
+    border-style: solid;
+
+}
+
