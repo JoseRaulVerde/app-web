@@ -54,4 +54,23 @@ body{
     border-style: solid;
 
 }
+.btn2{
+    height: 50px;
+    width: 100px;
+    margin: 35px;
+    align-items: center;
+}
+.allbtn2{
+   
+    text-align: center;
+    background-color: blueviolet;
+    width: 20%;
+    border: 2px ridge wheat;
+    box-shadow: 2px 5px 3px  black;
+    ;
+    
+}
+.profesores{
+
+}
 
