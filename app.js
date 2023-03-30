@@ -5,14 +5,11 @@ const log_in = document.getElementById('log_in');
 
 
 
-
 log_in.addEventListener('click',()=>{
-    if (email === "ADMIN"){
-        if (pasword === "ADMIN"){
-            //aqui pongo el siguiente usuario .html
+    console.log(email.value);
+    if (email.value === "ADMIN"){
+        if (pasword.value === "ADMIN"){
+            alert("entraste")//aqui pongo el siguiente usuario .html
         }else{return;}
     }else { alert("User or Pasword is not correrct. Pleace try again")}
 } )
-
-tipCuenta.addEventListener("click", ()=>{
- } )
